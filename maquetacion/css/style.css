@@ -1,0 +1,133 @@
+.containerHeader {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    place-items: center;
+    align-self: center;
+    width: 1240px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+.buscador {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 3fr 3fr 1fr;
+    align-self: center;
+    list-style: none;
+    justify-content: end;
+}
+.search-input {
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    height: 40px;
+    left: 420px;
+    top: 17px;
+    color: #222222;
+    background: #FAFAFA;
+    border: 0.3px solid #222222;
+    border-radius: 5px;
+}
+.instaFront {
+    display: grid;
+    justify-content: start;
+    width: 114px;
+    height: 29px;
+    left: 105px;
+    top: 23px;
+    justify-self: start;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+.profilePhoto {
+    grid-column: 3/4;
+    justify-self: end;
+    width: 50px;
+    height: 49px;
+    left: 1155px;
+    top: 13px;
+    border-radius: 50%;
+}
+.contenido {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    align-self: center;
+    place-items: center;
+    gap: 60px;
+}
+.history {
+    display: grid;
+    place-items: center ;
+    justify-content: center;
+    grid-template-columns: repeat(7, 1fr);
+    width: 600px;
+    height: 100px;
+    left: 109px;
+    top: 115px;
+    background: #FFFFFF;
+    border: 0.4px solid rgba(34, 34, 34, 0.5);
+    border-radius: 5px;
+    align-self: center;
+    margin: 40px;
+}
+.perfil1 img {
+    width: 60px;
+    height: 60px;
+    place-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50%;
+}
+.posts {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-auto-rows: 1fr 720px;
+    align-self: center;
+    place-items: center;
+    gap: 60px;
+}
+.infoPubliacion {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-self: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 67px;
+    left: 109px;
+    top: 255px;
+}
+.imagenPerfil {
+    border-radius: 50%;
+    width: 50px;
+    height: 49px;
+    left: 118px;
+    top: 264px;
+}
+.topPost{
+    width: 600px;
+    height: 67px;
+    left: 109px;
+    top: 255px;
+    background: #FFFFFF;
+    border: 0.4px solid rgba(34, 34, 34, 0.5);
+    border-radius: 5px 5px 0px 0px;
+}
+div h3 {
+    width: 104px;
+    height: 19px;
+    left: 177px;
+    top: 279px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
